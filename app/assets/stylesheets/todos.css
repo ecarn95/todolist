@@ -137,12 +137,40 @@ strike { font-weight: bold; }
 }
 
 body {
-  background-color: gray;
+  background-color: white;
 }
 
 .actions {
-  color: red;
+  color: blue;
 }
+
+.body {
+  text-align: center;
+  margin-top: 90px;
+  border: 2px solid black;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: grey;
+}
+
+.login {
+  color: black;
+}
+
+.field {
+  background-color: red;
+}
+
+.red {
+  background-color: red;
+}
+
+
+
+
+
+
+
 
 
 
