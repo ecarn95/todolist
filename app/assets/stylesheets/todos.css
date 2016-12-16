@@ -147,7 +147,6 @@ body {
   border: 2px solid black;
   margin-left: 500px;
   margin-right: 500px;
-  background-image: url("stickynote.jpg")
 }
 
 .login {
@@ -169,6 +168,8 @@ body {
 .actions:hover {
     background-color: blue; /* Green */
     color: white;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .iphone {
