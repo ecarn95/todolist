@@ -147,7 +147,7 @@ body {
   border: 2px solid black;
   margin-left: 500px;
   margin-right: 500px;
-  background-color: grey;
+  background-image: url("stickynote.jpg")
 }
 
 .login {
@@ -155,11 +155,24 @@ body {
 }
 
 .field {
-  background-color: red;
+   background-color: gray;
+}
+.red {
+  background-color: gray;
 }
 
-.red {
-  background-color: red;
+.actions {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.actions:hover {
+    background-color: blue; /* Green */
+    color: white;
+}
+
+.iphone {
+  background-color: white;
 }
 
 
