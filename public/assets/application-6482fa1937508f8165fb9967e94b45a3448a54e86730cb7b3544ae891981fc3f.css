@@ -136,7 +136,7 @@ strike { font-weight: bold; }
   color: black;
 }
 
-.todolist {
+body {
   background-color: white;
 }
 
@@ -147,6 +147,7 @@ strike { font-weight: bold; }
   border: 2px solid black;
   margin-left: 500px;
   margin-right: 500px;
+  background-image: url("stickynote.jpg")
 }
 
 .login {
@@ -160,8 +161,18 @@ strike { font-weight: bold; }
   background-color: gray;
 }
 
-.body {
-  background-image: url("sticky.jpg");
+.actions {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.actions:hover {
+    background-color: blue; /* Green */
+    color: white;
+}
+
+.iphone {
+  background-color: white;
 }
 
 
@@ -178,7 +189,19 @@ strike { font-weight: bold; }
 
 
 
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
 
 
-
+ */
 
