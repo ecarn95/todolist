@@ -160,21 +160,10 @@ body {
   background-color: gray;
 }
 
-.actions {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
 
-.actions:hover {
-    background-color: blue; /* Green */
-    color: white;
-    margin-right: 5px;
-    margin-left: 5px;
-}
 
-.iphone {
-  background-color: white;
-}
+
+
 
 
 
