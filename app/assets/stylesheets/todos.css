@@ -1,5 +1,6 @@
 * { font-family: Arial; }
 
+html,
 body {
   margin: 0;
   min-width: 250px;
@@ -99,6 +100,7 @@ ul li.checked::before {
   float: left;
   font-size: 16px;
   height: 41px;
+  color: black;
 }
 
 /* Style the "Add" button */
@@ -140,45 +142,27 @@ strike { font-weight: bold; }
   background-color: white;
 }
 
-
-.body {
-  text-align: center;
-  margin-top: 90px;
-  border: 2px solid black;
-  margin-left: 500px;
-  margin-right: 500px;
-}
-
 .login {
   color: black;
 }
 
-.field {
-   background-color: gray;
-}
-.red {
-  background-color: gray;
+.well {
+  vertical-align: middle;
 }
 
-.body {
+body {
   background-image: image-url("sticky.jpg");
 }
 
+.greybtn  {
+    background-color: grey;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.collapse navbar-collapse {
+  background-color: red;
+}
