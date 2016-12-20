@@ -79,6 +79,6 @@ class TodosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def todo_params
-      params.require(:todo).permit(:content, :checked)
+      params.require(:todo).permit(:content, :checked, :user_id)
     end
 end
