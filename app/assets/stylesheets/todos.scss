@@ -150,8 +150,13 @@ strike { font-weight: bold; }
   vertical-align: middle;
 }
 
-body {
+.background {
+  height: 100vh;
   background-image: image-url("sticky.jpg");
+}
+
+body {
+  background-color: #c4c4c4;
 }
 
 .greybtn  {
@@ -165,4 +170,17 @@ body {
 
 .collapse navbar-collapse {
   background-color: red;
+}
+
+.todolist101 {
+  background-color: white;
+  margin-top: 155px;
+}
+
+#myDIV {
+  position: fixed;
+  width: 100%;
+  padding-top: 0px;
+  z-index: 3243448320849023840829480234809328;
+  top: 0;
 }
